@@ -1,7 +1,7 @@
 version: 0.2
 env:
   secrets-manager:
-    sonartoken: prod/sonar :ac0e4c6d67fc166201d4896400dd6479ae7de6e2
+    sonartoken: prod/sonar:ac0e4c6d67fc166201d4896400dd6479ae7de6e2
     HOST: prod/sonar :https://sonarcloud.io
     Organization: prod/sonar :vishalppatilp5
     Project: prod/sonar :devopsfinal_new
