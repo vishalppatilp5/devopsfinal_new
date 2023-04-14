@@ -6,7 +6,7 @@ env:
     Organization: prod/sonar :vishalppatilp5
     HOST: prod/sonar :https://sonarcloud.io
     Project: prod/sonar :devopsfinal_new
-    sonartoken: prod/sonar:ac0e4c6d67fc166201d4896400dd6479ae7de6e2
+    sonartoken: ac0e4c6d67fc166201d4896400dd6479ae7de6e2
 
 phases:
   install:
