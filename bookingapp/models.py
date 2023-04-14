@@ -1,4 +1,4 @@
-"""models for db structure"""
+"""models for db structure 00"""
 #from django.db import models
 
 # Create your models here.
