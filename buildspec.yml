@@ -12,7 +12,7 @@ phases:
             - python --version
 
             - pylint $CODEBUILD_SRC_DIR/*.py
-            - pylint $CODEBULD_SRC_DIR/flightproject/*.py
+            - pylint $CODEBUILD_SRC_DIR/flightproject/*.py
             - pylint --disable=C0415 *.py **/*.py
 artifacts:
     files:
