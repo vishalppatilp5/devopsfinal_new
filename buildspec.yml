@@ -10,8 +10,8 @@ phases:
     pre_build:
         commands:
             - python --version
-            - pylint $CODEBUILD_SCR_DIR/*.py
-            - pylint $CODEBULD_SCR_DIR/flightproject/*.py
+            - pylint $CODEBUILD_SRC_DIR/*.py
+            - pylint $CODEBULD_SRC_DIR/flightproject/*.py
 artifacts:
     files:
         - '**/*'
