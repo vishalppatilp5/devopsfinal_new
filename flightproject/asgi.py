@@ -1,3 +1,5 @@
+"""asgi"""
+
 """
 ASGI config for flightproject project.
 
