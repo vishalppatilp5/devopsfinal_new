@@ -1,7 +1,7 @@
 version: 0.2
 env:
   secrets-manager:
-    LOGIN: ac0e4c6d67fc166201d4896400dd6479ae7de6e2
+    sonartoken: ac0e4c6d67fc166201d4896400dd6479ae7de6e2
     HOST: https://sonarcloud.io
     Organization: vishalppatilp5
     Project: devopsfinal_new
