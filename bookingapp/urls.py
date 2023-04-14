@@ -1,4 +1,4 @@
-"""Application URLs"""
+"""Application URLs and check"""
 from django.urls import path
 from . import views
 urlpatterns = [
