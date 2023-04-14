@@ -2,11 +2,11 @@ version: 0.2
 env:
   secrets-manager:
     # ARN : arn:aws:secretsmanager:ap-southeast-1:250738637992:secret:21227004_secretekey-ExXlYo
-    
-    Organization: prod/sonar :vishalppatilp5
-    HOST: prod/sonar :https://sonarcloud.io
-    Project: prod/sonar :devopsfinal_new
-    sonartoken: ac0e4c6d67fc166201d4896400dd6479ae7de6e2
+    LOGIN: 21227004_secretekey :sonartoken
+    HOST: 21227004_secretekey :HOST
+    Organization: 21227004_secretekey :Organization
+    Project: 21227004_secretekey :Project
+
 
 phases:
   install:
